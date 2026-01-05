@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92ae11c6030720e48874ea4b93185cc6, type: 3}
+  m_Name: TextEventDatas
+  m_EditorClassIdentifier: 
+  TextDatas:
+  - TextEventType: 1
+    TextEventDataBases:
+    - FindKey: Buff_Text_AttackUp
+      Duration: 0.025
+  - TextEventType: 2
+    TextEventDataBases:
+    - FindKey: Buff_Text_SpeedUp
+      Duration: 0.025
+  - TextEventType: 3
+    TextEventDataBases:
+    - FindKey: Buff_Text_ReloadUp
+      Duration: 0.025
+  - TextEventType: 4
+    TextEventDataBases:
+    - FindKey: Buff_Text_Heal
+      Duration: 0.025
+  - TextEventType: 5
+    TextEventDataBases:
+    - FindKey: Buff_Text_ExpUp
+      Duration: 0.025
+  - TextEventType: 6
+    TextEventDataBases:
+    - FindKey: Buff_Text_HpUp
+      Duration: 0.025
+  - TextEventType: 7
+    TextEventDataBases:
+    - FindKey: Buff_Text_BuffSlot
+      Duration: 0.025
+  - TextEventType: 8
+    TextEventDataBases:
+    - FindKey: Buff_Text_ScopeMode
+      Duration: 0.025
+  - TextEventType: 9
+    TextEventDataBases:
+    - FindKey: Buff_Text_BulletUp
+      Duration: 0.025
+  - TextEventType: 10
+    TextEventDataBases:
+    - FindKey: Buff_Text_SelecteBuffUp
+      Duration: 0.025
+  - TextEventType: 12
+    TextEventDataBases:
+    - FindKey: Message_Text_AttackUpPerSent
+      Duration: 0.025
+  - TextEventType: 13
+    TextEventDataBases:
+    - FindKey: Message_Text_AreaCount
+      Duration: 0.025
+  - TextEventType: 14
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviEnemyKill
+      Duration: 0.025
+  - TextEventType: 15
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviEnemyCount
+      Duration: 0.025
+  - TextEventType: 16
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviBuffSelect
+      Duration: 0.025
+  - TextEventType: 17
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviBuffSelected
+      Duration: 0.025
+  - TextEventType: 24
+    TextEventDataBases:
+    - FindKey: Message_Text_ResultClearRabel
+      Duration: 0.025
+  - TextEventType: 25
+    TextEventDataBases:
+    - FindKey: Message_Text_ResultFailedRabel
+      Duration: 0.025
+  - TextEventType: 26
+    TextEventDataBases:
+    - FindKey: Message_Text_ResultFloorRabel
+      Duration: 0.025
+  - TextEventType: 27
+    TextEventDataBases:
+    - FindKey: Message_Text_ResultTimeRabel
+      Duration: 0.025
+  - TextEventType: 28
+    TextEventDataBases:
+    - FindKey: Message_Text_ResultDamageRabel
+      Duration: 0.025
+  - TextEventType: 29
+    TextEventDataBases:
+    - FindKey: Message_Text_ResultEnemyRabel
+      Duration: 0.025
+  - TextEventType: 30
+    TextEventDataBases:
+    - FindKey: Message_Text_ResultFloorValue
+      Duration: 0.025
+  - TextEventType: 31
+    TextEventDataBases:
+    - FindKey: Message_Text_ResultTimeValue
+      Duration: 0.025
+  - TextEventType: 32
+    TextEventDataBases:
+    - FindKey: Message_Text_ResultDamageValue
+      Duration: 0.025
+  - TextEventType: 33
+    TextEventDataBases:
+    - FindKey: Message_Text_ResultEnemyValue
+      Duration: 0.025
+  - TextEventType: 34
+    TextEventDataBases:
+    - FindKey: Message_Text_TapToTitle
+      Duration: 0.025
+  - TextEventType: 35
+    TextEventDataBases:
+    - FindKey: Message_Text_TutorialScenario_001
+      Duration: 0.025
+    - FindKey: Message_Text_TutorialScenario_002
+      Duration: 0.025
+    - FindKey: Message_Text_TutorialScenario_003
+      Duration: 0.025
+    - FindKey: Message_Text_TutorialScenario_004
+      Duration: 0.025
+    - FindKey: Message_Text_TutorialScenario_005
+      Duration: 0.025
+    - FindKey: Message_Text_TutorialScenario_006
+      Duration: 0.025
+    - FindKey: Message_Text_TutorialScenario_007
+      Duration: 0.025
+    - FindKey: Message_Text_TutorialScenario_008
+      Duration: 0.025
+    - FindKey: Message_Text_TutorialScenario_009
+      Duration: 0.025
+    - FindKey: Message_Text_TutorialScenario_010
+      Duration: 0.025
+    - FindKey: Message_Text_TutorialScenario_011
+      Duration: 0.025
+  - TextEventType: 18
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviAccept_001
+      Duration: 0.025
+    - FindKey: Message_Text_NaviAccept_002
+      Duration: 0.025
+    - FindKey: Message_Text_NaviAccept_003
+      Duration: 0.025
+  - TextEventType: 19
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviMove_001
+      Duration: 0.025
+    - FindKey: Message_Text_NaviMove_002
+      Duration: 0.025
+    - FindKey: Message_Text_NaviMove_003
+      Duration: 0.025
+  - TextEventType: 20
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviShoot
+      Duration: 0.025
+  - TextEventType: 21
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviBullet
+      Duration: 0.025
+  - TextEventType: 22
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviEnemyDown_001
+      Duration: 0.025
+    - FindKey: Message_Text_NaviEnemyDown_002
+      Duration: 0.025
+  - TextEventType: 23
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviBuff_001
+      Duration: 0.025
+    - FindKey: Message_Text_NaviBuff_002
+      Duration: 0.025
+  - TextEventType: 36
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviNext
+      Duration: 0.025
+  - TextEventType: 37
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviFight_001
+      Duration: 0.025
+    - FindKey: Message_Text_NaviFight_002
+      Duration: 0.025
+    - FindKey: Message_Text_NaviFight_003
+      Duration: 0.025
+  - TextEventType: 38
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviEnd_001
+      Duration: 0.025
+    - FindKey: Message_Text_NaviEnd_002
+      Duration: 0.025
+  - TextEventType: 39
+    TextEventDataBases:
+    - FindKey: Message_Text_NaviGameEnd_001
+      Duration: 0.025
+    - FindKey: Message_Text_NaviGameEnd_002
+      Duration: 0.025

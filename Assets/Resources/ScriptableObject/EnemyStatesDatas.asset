@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64e92546a3d0a604a8e83547a404d57e, type: 3}
+  m_Name: EnemyStatesDatas
+  m_EditorClassIdentifier: 
+  EnemyStatesDataSet:
+  - EnemyType: 1
+    PatrolStateTypes: 010000000200000003000000
+    ChaseStateTypes: 0700000004000000
+  - EnemyType: 2
+    PatrolStateTypes: 010000000200000003000000
+    ChaseStateTypes: 0700000004000000
+  - EnemyType: 4
+    PatrolStateTypes: 010000000200000003000000
+    ChaseStateTypes: 0700000008000000
+  - EnemyType: 5
+    PatrolStateTypes: 010000000200000003000000
+    ChaseStateTypes: 0700000004000000
+  - EnemyType: 3
+    PatrolStateTypes: 010000000200000003000000
+    ChaseStateTypes: 0700000004000000

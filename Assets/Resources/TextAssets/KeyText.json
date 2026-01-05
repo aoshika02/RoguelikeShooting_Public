@@ -1,0 +1,814 @@
+{ "KeyTexts" : [
+
+  {
+		"Type": "Buff", 
+		"SubType": "Text", 
+		"TextEventType": "AttackUp", 
+		"Index": "", 
+		"FindKey": "Buff_Text_AttackUp", 
+		"Name": "火力増強", 
+		"Message": "攻撃力が{Value}上昇する", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": "〇"
+  },
+
+  {
+		"Type": "Buff", 
+		"SubType": "Text", 
+		"TextEventType": "SpeedUp", 
+		"Index": "", 
+		"FindKey": "Buff_Text_SpeedUp", 
+		"Name": "速度上昇", 
+		"Message": "ダッシュ時の速度が{Value}上昇する", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Buff", 
+		"SubType": "Text", 
+		"TextEventType": "ReloadUp", 
+		"Index": "", 
+		"FindKey": "Buff_Text_ReloadUp", 
+		"Name": "", 
+		"Message": "リロード時間が{Value}減少する", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Buff", 
+		"SubType": "Text", 
+		"TextEventType": "Heal", 
+		"Index": "", 
+		"FindKey": "Buff_Text_Heal", 
+		"Name": "", 
+		"Message": "HPを{Value}回復する", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Buff", 
+		"SubType": "Text", 
+		"TextEventType": "ExpUp", 
+		"Index": "", 
+		"FindKey": "Buff_Text_ExpUp", 
+		"Name": "", 
+		"Message": "獲得できるEXPが{Value}％増える", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Buff", 
+		"SubType": "Text", 
+		"TextEventType": "HpUp", 
+		"Index": "", 
+		"FindKey": "Buff_Text_HpUp", 
+		"Name": "", 
+		"Message": "HPの上限が{Value}増える", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Buff", 
+		"SubType": "Text", 
+		"TextEventType": "BuffSlot", 
+		"Index": "", 
+		"FindKey": "Buff_Text_BuffSlot", 
+		"Name": "", 
+		"Message": "パッチのインストール上限が増える", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Buff", 
+		"SubType": "Text", 
+		"TextEventType": "ScopeMode", 
+		"Index": "", 
+		"FindKey": "Buff_Text_ScopeMode", 
+		"Name": "", 
+		"Message": "敵を壁を越えて観測できる", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Buff", 
+		"SubType": "Text", 
+		"TextEventType": "BulletUp", 
+		"Index": "", 
+		"FindKey": "Buff_Text_BulletUp", 
+		"Name": "", 
+		"Message": "装填できる弾の上限が{Value}増える", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Buff", 
+		"SubType": "Text", 
+		"TextEventType": "SelecteBuffUp", 
+		"Index": "", 
+		"FindKey": "Buff_Text_SelecteBuffUp", 
+		"Name": "", 
+		"Message": "パッチの選択肢が増える", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "AttackUpPerSent", 
+		"Index": "", 
+		"FindKey": "Message_Text_AttackUpPerSent", 
+		"Name": "", 
+		"Message": "攻撃力が{Value}％上昇する", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "AreaCount", 
+		"Index": "", 
+		"FindKey": "Message_Text_AreaCount", 
+		"Name": "", 
+		"Message": "{Value}階", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviEnemyKill", 
+		"Index": "", 
+		"FindKey": "Message_Text_NaviEnemyKill", 
+		"Name": "", 
+		"Message": "敵を討伐しましょう", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviEnemyCount", 
+		"Index": "", 
+		"FindKey": "Message_Text_NaviEnemyCount", 
+		"Name": "", 
+		"Message": "残りの敵の数は{Value}です", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviBuffSelect", 
+		"Index": "", 
+		"FindKey": "Message_Text_NaviBuffSelect", 
+		"Name": "", 
+		"Message": "適応するパッチを選択してください", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviBuffSelected", 
+		"Index": "", 
+		"FindKey": "Message_Text_NaviBuffSelected", 
+		"Name": "", 
+		"Message": "選択したパッチを適応しました", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "ResultClearRabel", 
+		"Index": "", 
+		"FindKey": "Message_Text_ResultClearRabel", 
+		"Name": "", 
+		"Message": "任務完了", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "ResultFailedRabel", 
+		"Index": "", 
+		"FindKey": "Message_Text_ResultFailedRabel", 
+		"Name": "", 
+		"Message": "任務失敗", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "ResultFloorRabel", 
+		"Index": "", 
+		"FindKey": "Message_Text_ResultFloorRabel", 
+		"Name": "", 
+		"Message": "踏破階層数", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "ResultTimeRabel", 
+		"Index": "", 
+		"FindKey": "Message_Text_ResultTimeRabel", 
+		"Name": "", 
+		"Message": "滞在時間", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "ResultDamageRabel", 
+		"Index": "", 
+		"FindKey": "Message_Text_ResultDamageRabel", 
+		"Name": "", 
+		"Message": "総ダメージ数", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "ResultEnemyRabel", 
+		"Index": "", 
+		"FindKey": "Message_Text_ResultEnemyRabel", 
+		"Name": "", 
+		"Message": "総討伐数", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "ResultFloorValue", 
+		"Index": "", 
+		"FindKey": "Message_Text_ResultFloorValue", 
+		"Name": "", 
+		"Message": "{Value}階", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "ResultTimeValue", 
+		"Index": "", 
+		"FindKey": "Message_Text_ResultTimeValue", 
+		"Name": "", 
+		"Message": "{Value}", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "ResultDamageValue", 
+		"Index": "", 
+		"FindKey": "Message_Text_ResultDamageValue", 
+		"Name": "", 
+		"Message": "{Value}", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "ResultEnemyValue", 
+		"Index": "", 
+		"FindKey": "Message_Text_ResultEnemyValue", 
+		"Name": "", 
+		"Message": "{Value}体", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TapToTitle", 
+		"Index": "", 
+		"FindKey": "Message_Text_TapToTitle", 
+		"Name": "", 
+		"Message": "タップして帰還する", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "1", 
+		"FindKey": "Message_Text_TutorialScenario_001", 
+		"Name": "???", 
+		"Message": "やあ、初めまして", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "2", 
+		"FindKey": "Message_Text_TutorialScenario_002", 
+		"Name": "???", 
+		"Message": "私はイスルギ", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "3", 
+		"FindKey": "Message_Text_TutorialScenario_003", 
+		"Name": "イスルギ", 
+		"Message": "アルバイトを引き受けてくれて、ありがとう。", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "4", 
+		"FindKey": "Message_Text_TutorialScenario_004", 
+		"Name": "イスルギ", 
+		"Message": "これから君には、私の所有するビルに住み着いてしまった\nモンスターや", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "5", 
+		"FindKey": "Message_Text_TutorialScenario_005", 
+		"Name": "イスルギ", 
+		"Message": "故障して暴走している警備ロボットを倒し、\nビルを安全な状態に戻してもらいたい。", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "6", 
+		"FindKey": "Message_Text_TutorialScenario_006", 
+		"Name": "イスルギ", 
+		"Message": "支給した特製の銃と専用システムは、\nやつらの討伐に合わせて調整してある。", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "7", 
+		"FindKey": "Message_Text_TutorialScenario_007", 
+		"Name": "イスルギ", 
+		"Message": "それさえ使えれば、基本的には問題ないはずだ。", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "8", 
+		"FindKey": "Message_Text_TutorialScenario_008", 
+		"Name": "イスルギ", 
+		"Message": "とはいえ、急に渡されたら扱いに戸惑うだろうし、\n使い方はきちんとレクチャーするつもりだったんだが…", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "9", 
+		"FindKey": "Message_Text_TutorialScenario_009", 
+		"Name": "イスルギ", 
+		"Message": "あいにく、このあと予定があってね。", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "10", 
+		"FindKey": "Message_Text_TutorialScenario_010", 
+		"Name": "イスルギ", 
+		"Message": "以降の説明はサポートシステムが行うから、\nそっちの指示に従ってくれ。", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "TutorialScenario", 
+		"Index": "11", 
+		"FindKey": "Message_Text_TutorialScenario_011", 
+		"Name": "イスルギ", 
+		"Message": "それじゃあ、健闘を祈る。", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviAccept", 
+		"Index": "1", 
+		"FindKey": "Message_Text_NaviAccept_001", 
+		"Name": "", 
+		"Message": "私はサポートシステム", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviAccept", 
+		"Index": "2", 
+		"FindKey": "Message_Text_NaviAccept_002", 
+		"Name": "", 
+		"Message": "模擬戦闘のサポートを開始します", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviAccept", 
+		"Index": "3", 
+		"FindKey": "Message_Text_NaviAccept_003", 
+		"Name": "", 
+		"Message": "まずは移動してみましょう", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviMove", 
+		"Index": "1", 
+		"FindKey": "Message_Text_NaviMove_001", 
+		"Name": "", 
+		"Message": "「マウス」で視点移動することができます", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviMove", 
+		"Index": "2", 
+		"FindKey": "Message_Text_NaviMove_002", 
+		"Name": "", 
+		"Message": "「WASD」で移動することができます", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviMove", 
+		"Index": "3", 
+		"FindKey": "Message_Text_NaviMove_003", 
+		"Name": "", 
+		"Message": "「Shift」でダッシュすることができます", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviShoot", 
+		"Index": "", 
+		"FindKey": "Message_Text_NaviShoot", 
+		"Name": "", 
+		"Message": "マウスのクリックで射撃を行えます", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviBullet", 
+		"Index": "", 
+		"FindKey": "Message_Text_NaviBullet", 
+		"Name": "", 
+		"Message": "残弾が無くなると自動でリロードを行います", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviEnemyDown", 
+		"Index": "1", 
+		"FindKey": "Message_Text_NaviEnemyDown_001", 
+		"Name": "", 
+		"Message": "すべての敵を倒しました", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviEnemyDown", 
+		"Index": "2", 
+		"FindKey": "Message_Text_NaviEnemyDown_002", 
+		"Name": "", 
+		"Message": "次の階へ向かいましょう", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviBuff", 
+		"Index": "1", 
+		"FindKey": "Message_Text_NaviBuff_001", 
+		"Name": "", 
+		"Message": "フロアをクリアすると追加パッチを獲得できます", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviBuff", 
+		"Index": "2", 
+		"FindKey": "Message_Text_NaviBuff_002", 
+		"Name": "", 
+		"Message": "追加パッチの適応によって銃やシステムのアップデートができます", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviNext", 
+		"Index": "", 
+		"FindKey": "Message_Text_NaviNext", 
+		"Name": "", 
+		"Message": "次のフロアへ向かいましょう", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviFight", 
+		"Index": "1", 
+		"FindKey": "Message_Text_NaviFight_001", 
+		"Name": "", 
+		"Message": "敵との模擬戦闘を行います", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviFight", 
+		"Index": "2", 
+		"FindKey": "Message_Text_NaviFight_002", 
+		"Name": "", 
+		"Message": "敵の攻撃に注意して敵の討伐を行ってください", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviFight", 
+		"Index": "3", 
+		"FindKey": "Message_Text_NaviFight_003", 
+		"Name": "", 
+		"Message": "今回は模擬戦闘であるためダメージを受けても致命傷になりません", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviEnd", 
+		"Index": "1", 
+		"FindKey": "Message_Text_NaviEnd_001", 
+		"Name": "", 
+		"Message": "敵の沈黙を確認", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviEnd", 
+		"Index": "2", 
+		"FindKey": "Message_Text_NaviEnd_002", 
+		"Name": "", 
+		"Message": "模擬戦闘のサポートを終了します", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviGameEnd", 
+		"Index": "1", 
+		"FindKey": "Message_Text_NaviGameEnd_001", 
+		"Name": "", 
+		"Message": "すべての敵を倒しました", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  },
+
+  {
+		"Type": "Message", 
+		"SubType": "Text", 
+		"TextEventType": "NaviGameEnd", 
+		"Index": "2", 
+		"FindKey": "Message_Text_NaviGameEnd_002", 
+		"Name": "", 
+		"Message": "これで任務は完了です。脱出しましょう", 
+		"SelectA": "", 
+		"SelectB": "", 
+		"Memo": "", 
+		"追加済": ""
+  }
+]}

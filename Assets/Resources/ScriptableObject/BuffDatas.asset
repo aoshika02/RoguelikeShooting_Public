@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13cc8ea7a4562ce4197a9696e37e1bd3, type: 3}
+  m_Name: BuffDatas
+  m_EditorClassIdentifier: 
+  BuffDataSets:
+  - BuffType: 1
+    RankType: 2
+    TextEventType: 1
+    Value: 5
+  - BuffType: 1
+    RankType: 3
+    TextEventType: 1
+    Value: 6
+  - BuffType: 1
+    RankType: 4
+    TextEventType: 1
+    Value: 8
+  - BuffType: 2
+    RankType: 2
+    TextEventType: 2
+    Value: 0.1
+  - BuffType: 2
+    RankType: 3
+    TextEventType: 2
+    Value: 0.5
+  - BuffType: 2
+    RankType: 4
+    TextEventType: 2
+    Value: 1
+  - BuffType: 3
+    RankType: 2
+    TextEventType: 3
+    Value: 0.1
+  - BuffType: 3
+    RankType: 3
+    TextEventType: 3
+    Value: 0.3
+  - BuffType: 3
+    RankType: 4
+    TextEventType: 3
+    Value: 0.5
+  - BuffType: 4
+    RankType: 2
+    TextEventType: 4
+    Value: 1
+  - BuffType: 4
+    RankType: 3
+    TextEventType: 4
+    Value: 3
+  - BuffType: 4
+    RankType: 4
+    TextEventType: 4
+    Value: 5
+  - BuffType: 6
+    RankType: 2
+    TextEventType: 6
+    Value: 2
+  - BuffType: 6
+    RankType: 3
+    TextEventType: 6
+    Value: 5
+  - BuffType: 6
+    RankType: 4
+    TextEventType: 6
+    Value: 8
+  - BuffType: 9
+    RankType: 3
+    TextEventType: 9
+    Value: 1
+  - BuffType: 9
+    RankType: 4
+    TextEventType: 9
+    Value: 2
+  - BuffType: 10
+    RankType: 4
+    TextEventType: 10
+    Value: 1
+  - BuffType: 12
+    RankType: 2
+    TextEventType: 12
+    Value: 1
+  - BuffType: 12
+    RankType: 3
+    TextEventType: 12
+    Value: 3
+  - BuffType: 12
+    RankType: 4
+    TextEventType: 12
+    Value: 5
